@@ -1,12 +1,12 @@
 {
-    "name": "mattketmo/yamldiff",
-    "description": "Spot the differences between two YAML files",
+    "name": "nerijusza/yamldiff",
+    "description": "Spot the differences between two YAML files. Forked from 'mattketmo/yamldiff'",
     "license": "MIT",
     "require": {
-        "symfony/console": "<3",
-        "symfony/process": "<3",
-        "symfony/finder": "<3",
-        "symfony/yaml": "<3"
+        "symfony/console": "<4.2",
+        "symfony/process": "<4.2",
+        "symfony/finder": "<4.2",
+        "symfony/yaml": "<4.2"
     },
     "autoload": {
         "psr-0": {
@@ -18,6 +18,10 @@
         {
             "name": "Matthieu Moquet",
             "email": "matthieu@moquet.net"
+        },
+        {
+            "name": "Nerijus Zaniauskas",
+            "email": "nerijus.zaniauskas@gmail.com"
         }
     ]
 }
